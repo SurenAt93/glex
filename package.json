@@ -1,0 +1,35 @@
+{
+  "name": "glex",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://SurenAt93.github.io/glex",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "^2.0.0-next.a671462c"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.3"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">0.25%",
+      "not op_mini all",
+      "ie 11"
+    ]
+  }
+}
